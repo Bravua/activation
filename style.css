@@ -5,6 +5,22 @@ body{
       background: linear-gradient(130deg, #e6ffe6, #ccff99);
       opacity: 0.9;
   }
+  .form-check-label{
+    color: #003300;
+    font-weight: 700;
+  }
+  .blue{
+    background: linear-gradient(130deg, #000000, #0d1a00);
+    border-radius: 10px;
+    transform: 3s;
+    padding: 10px;
+  }
+  .bluep{
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+  }
   .conpart{
     background-color: #fff;
     padding: 40px;
