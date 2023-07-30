@@ -21,6 +21,19 @@ copyText.querySelector("button").addEventListener("click",function(){
     },2500);
 });
 
+let copyText2 = document.querySelector(".copy-text2");
+copyText2.querySelector("button").addEventListener("click",function(){
+    let input = copyText2.querySelector("input.text2");
+    input.select();
+    document.execCommand("copy");
+    copyText2.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText2.classList.remove("active");
+    },2500);
+});
+
+
 
 
 function myFunction(){
