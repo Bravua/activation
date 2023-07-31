@@ -32,6 +32,39 @@ copyText2.querySelector("button").addEventListener("click",function(){
         copyText2.classList.remove("active");
     },2500);
 });
+let copyText3 = document.querySelector(".copy-text3");
+copyText3.querySelector("button").addEventListener("click",function(){
+    let input = copyText3.querySelector("input.text3");
+    input.select();
+    document.execCommand("copy");
+    copyText3.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText3.classList.remove("active");
+    },2500);
+});
+let copyText4 = document.querySelector(".copy-text4");
+copyText4.querySelector("button").addEventListener("click",function(){
+    let input = copyText4.querySelector("input.text4");
+    input.select();
+    document.execCommand("copy");
+    copyText4.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText4.classList.remove("active");
+    },2500);
+});
+let copyText5 = document.querySelector(".copy-text5");
+copyText5.querySelector("button").addEventListener("click",function(){
+    let input = copyText5.querySelector("input.text5");
+    input.select();
+    document.execCommand("copy");
+    copyText5.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText5.classList.remove("active");
+    },2500);
+});
 
 
 
