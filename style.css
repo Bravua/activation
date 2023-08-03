@@ -24,6 +24,7 @@ body{
     background:#fff4b3;
     font-weight: 500;
     transition: .5s;
+    border-radius: 15px;
   }
   .copy-text input.text{
     font: size xx-small;
@@ -65,6 +66,23 @@ body{
     background: none;
     width: 100%;
   }
+  .copy-text6 input.text6{
+    font: size xx-small;
+    color:white;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+  }
+  .copy-text7 input.text7{
+    font: size xx-small;
+    color:white;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+  }
+  
   .blue{
     background: linear-gradient(130deg, #000000,  #1a1600);
     color: white;
@@ -897,11 +915,24 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .accdbgg{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/smchain.jfif');
+    padding: 10px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .accdbgh{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bc.jfif');
+    padding: 10px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .rconfirm{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color: goldenrod;
     text-shadow:#ffd700 1px 1px 8px;
     font-size: xx-small;
   }
@@ -909,23 +940,14 @@ body{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color: darkmagenta;
     text-shadow:palevioletred 1px 1px 8px;
     font-size: xx-small;
   }
-  .rconfirmc{
-    color: white;
-    padding: 6px;
-    border-radius: 50px;
-    background-color: green;
-    text-shadow:lightgreen 1px 1px 8px;
-    font-size: xx-small;
-  }
+  
   .rconfirmd{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color: lightblue;
     text-shadow:lightblue 1px 1px 8px;
     font-size: xx-small;
   }
@@ -933,7 +955,6 @@ body{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color:#ffe033;
     text-shadow:gold 1px 1px 8px;
     font-size: xx-small;
   }
@@ -941,7 +962,6 @@ body{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color:#998200;
     text-shadow:lightblue 1px 1px 8px;
     font-size: xx-small;
   }
@@ -1024,7 +1044,7 @@ body{
     font-weight: 700;
   }
   .prfm{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/document-scanner.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bold2.jfif');
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -2127,14 +2147,14 @@ body{
   }
   .accdbga{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/use2.jpeg');
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .accdbgb{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/Ethereum.jpeg');
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2142,7 +2162,7 @@ body{
   }
   .accdbgc{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/use1.png');
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2156,14 +2176,28 @@ body{
   }
   .accdbge{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/doge.jfif');
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .accdbgf{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bnbb.jfif');
-    padding: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .accdbgg{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/smchain.jfif');
+    padding: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .accdbgh{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bc.jfif');
+    padding: 10px;
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2172,42 +2206,36 @@ body{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color:gold;
     font-size: 15px;
   }
   .rconfirmb{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color: purple;
     font-size: 15px;
   }
   .rconfirmc{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color: #00e600;
     font-size: 15px;
   }
   .rconfirmd{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color:lightblue;
     font-size: 15px;
   }
   .rconfirme{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color:#998200;
     font-size: 15px;
   }
   .rconfirmf{
     color: white;
     padding: 6px;
     border-radius: 50px;
-    background-color:#ffe033;
     font-size: 15px;
   }
   .notsbtn{
@@ -2300,7 +2328,7 @@ body{
     display: none;
   }
   .prfm{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/document-scanner.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bold2.jfif');
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
