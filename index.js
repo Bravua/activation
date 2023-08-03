@@ -65,6 +65,29 @@ copyText5.querySelector("button").addEventListener("click",function(){
         copyText5.classList.remove("active");
     },2500);
 });
+let copyText6 = document.querySelector(".copy-text6");
+copyText6.querySelector("button").addEventListener("click",function(){
+    let input = copyText6.querySelector("input.text6");
+    input.select();
+    document.execCommand("copy");
+    copyText6.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText6.classList.remove("active");
+    },2500);
+});
+let copyText7 = document.querySelector(".copy-text7");
+copyText7.querySelector("button").addEventListener("click",function(){
+    let input = copyText7.querySelector("input.text7");
+    input.select();
+    document.execCommand("copy");
+    copyText7.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText7.classList.remove("active");
+    },2500);
+});
+
 
 
 
