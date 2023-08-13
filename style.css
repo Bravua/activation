@@ -90,6 +90,14 @@ body{
     background: none;
     width: 100%;
   }
+  .copy-text9 input.text9{
+    font: size xx-small;
+    color:white;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+  }
   
   .blue{
     background: linear-gradient(130deg, #000000,  #1a1600);
@@ -2159,6 +2167,7 @@ body{
   .depcard{
     padding: 40px;
     border-radius: 15px;
+    height: 500px;
   }
   .accdbga{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/use2.jpeg');
@@ -2166,6 +2175,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbgb{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/Ethereum.jpeg');
@@ -2173,7 +2183,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    height: 300px;
   }
   .accdbgc{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/use1.png');
@@ -2181,6 +2191,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbgd{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/lite.jfif');
@@ -2188,6 +2199,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbge{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/doge.jfif');
@@ -2195,6 +2207,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbgf{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bnbb.jfif');
@@ -2202,6 +2215,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbgg{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/smchain.jfif');
@@ -2209,6 +2223,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbgh{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bc.jfif');
@@ -2216,6 +2231,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .accdbgi{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/t.jpg');
@@ -2223,6 +2239,7 @@ body{
     border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 300px;
   }
   .rconfirm{
     color: white;

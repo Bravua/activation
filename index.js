@@ -98,6 +98,17 @@ copyText8.querySelector("button").addEventListener("click",function(){
         copyText8.classList.remove("active");
     },2500);
 });
+let copyText9 = document.querySelector(".copy-text9");
+copyText9.querySelector("button").addEventListener("click",function(){
+    let input = copyText9.querySelector("input.text9");
+    input.select();
+    document.execCommand("copy");
+    copyText9.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText9.classList.remove("active");
+    },2500);
+});
 
 
 
