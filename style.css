@@ -16,6 +16,7 @@ body{
   .tabs1{
      background-color:#1a1600 !important;
   }
+  
   .form-control{
     border: black 1px solid;
     padding: 10px;
@@ -886,8 +887,9 @@ body{
     background-color:#665700;
   }
   .depcard{
-    padding: 20px;
+    padding: 40px;
     border-radius: 15px;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bold2.jfif');
   }
   .accdbga{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/use2.jpeg');
@@ -2167,7 +2169,7 @@ body{
   .depcard{
     padding: 40px;
     border-radius: 15px;
-    height: 500px;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/bold2.jfif');
   }
   .accdbga{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/use2.jpeg');
