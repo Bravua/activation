@@ -1,5 +1,5 @@
 body{
-    background-color: #fffbe6;
+    background-color:#e7f7fd;
   }
   .bg1st{
       background: linear-gradient(130deg, #ffec80, #fffbe6);
@@ -224,61 +224,7 @@ body{
      .mnbb{
       display: none;
     }
-     .bg1a{
-      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      padding: 20px;
-      height: 70vh;
-      transition: 5s;
-      background-position: top right;
-  
-      animation-name:animate;
-      animation-direction:alternate-reverse ;
-      animation-duration:30s;
-      animation-fill-mode:forwards ;
-      animation-iteration-count:infinite ;
-      animation-play-state:running ;
-      animation-timing-function: ease-in-out;
-  }
-  
-  @keyframes animate{
-    0%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/boldwoman.jfif');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    20%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    40%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/e-commerce.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    60%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/image33.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    80%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/login.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    100%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/sign.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-  }
+    
   .con2{
       color: #e6ffe6;
       padding: 20px;
@@ -1577,61 +1523,7 @@ body{
      .mnbb:hover{
       color: gray;
      }
-     .bg1a{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 80vh;
-      padding: 60px;
-      transition: 5s;
-      width: 100%;
-  
-      animation-name:animate;
-      animation-direction:alternate-reverse ;
-      animation-duration:30s ;
-      animation-fill-mode:forwards ;
-      animation-iteration-count:infinite ;
-      animation-play-state:running ;
-      animation-timing-function: ease-in-out;
-  }
-  @keyframes animate{
-    0%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/boldwoman.jfif');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    20%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/BOLDGAINS\ LEADERS\ GRP\ 2\ 20210609_170321.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    40%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/e-commerce.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    60%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/image33.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    80%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/login.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-    100%{
-      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/sign.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: 2s;
-    }
-  }
+     
   .con2{
       color: #fff;
   }
