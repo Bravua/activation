@@ -916,7 +916,7 @@ body{
     background-repeat: no-repeat;
   }
   .accdbgd{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/lite.jfif');
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/PalmPay.jpg');
     padding: 10px;
     border-radius: 15px;
     background-size: cover;
@@ -2116,8 +2116,10 @@ body{
     background-color: #07475f;
   }
   .depcard{
-    padding: 40px;
+    padding: 20px;
     border-radius: 15px;
+    height: 600px;
+  
    
   }
   .accdbga{
@@ -2145,7 +2147,7 @@ body{
     height: 300px;
   }
   .accdbgd{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/lite.jfif');
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/PalmPay.jpg');
     padding: 20px;
     border-radius: 5px;
     background-size: cover;
